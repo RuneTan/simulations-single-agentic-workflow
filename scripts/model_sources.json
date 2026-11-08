@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/IlariaBrivio/SMEFTsim_tutorial_June23",
+  "commit": "92ffde994d7c0d90554ee629cc477ee171c76b84",
+  "model": {
+    "model_id": "SMEFTsim_U35_MwScheme_UFO",
+    "version": "3.0.2",
+    "variant": "June23 tutorial UFO",
+    "basis": "Warsaw",
+    "flavour_scheme": "U35",
+    "ew_input_scheme": "MwScheme",
+    "restriction": "massless_Hvlvl"
+  },
+  "files": {
+    "parameters.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/parameters.py",
+      "sha256": "3ad4cce0c6c588f2d3f2c10e242233c21965c1de1ad09eaf21de6528db6d02a4"
+    },
+    "restrict_massless_Hvlvl.dat": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/restrict_massless_Hvlvl.dat",
+      "sha256": "f206d790e9eb1169cf720ce74889062de613d0468ff19c769721760dd7b29c89"
+    },
+    "coupling_orders.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/coupling_orders.py",
+      "sha256": "17955f86045917ee43996114a3a7e3e38d9a48af1070b42f6cfb13f3a25d7f6f"
+    },
+    "version.info": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/version.info",
+      "sha256": "a7ef648e8ed76c4db6bc54e70a49c3669301c5498aee221d679242d0c040f202"
+    },
+    "particles.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/particles.py",
+      "sha256": "553789aaa48040661e4cf27159b12163a52909408699c3753b997d2fcc719396"
+    }
+  }
+}

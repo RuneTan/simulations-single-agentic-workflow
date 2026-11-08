@@ -1,0 +1,693 @@
+{
+  "archive_sha256": "abae13eb2dba7a891bd963f631feee1ecef36dcbe18bf6bdf2c9277126e1a0d9",
+  "commit": "db7d4a80bdcff424eee27dde71f1eb09ac894039",
+  "files": {
+    "LICENSE": {
+      "git_blob": "c6cf36439704d14731ca4480f935180db6352b3f",
+      "size_bytes": 1065
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/CT_couplings.py": {
+      "git_blob": "b99315ab6bee9852d2605ecd75a262bd0ea726bd",
+      "size_bytes": 298
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/coupling_orders.py": {
+      "git_blob": "a00cab5450480203a4931aabdfd7342d6c86ebd4",
+      "size_bytes": 8945
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/couplings.py": {
+      "git_blob": "e3592d056606f9fec7a1fe5ea32bb2ccf850306b",
+      "size_bytes": 1463977
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/decays.py": {
+      "git_blob": "2b6daeee0cf09c849df25565b1addb7ce667e6f8",
+      "size_bytes": 2553548
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/lorentz.py": {
+      "git_blob": "df231ff484772e68ef6cd20c8e476180d044e593",
+      "size_bytes": 69681
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/param_card_massless.dat": {
+      "git_blob": "47ea6d4d62624c70c95b63c9460a37f2c7d3af45",
+      "size_bytes": 6193
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/parameters.py": {
+      "git_blob": "da0e8b1f737ce88a0d01de036dc7f2a6b359661e",
+      "size_bytes": 63617
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/propagators.py": {
+      "git_blob": "bd110e672ecef582fefbcde2bad97030c8adcd7b",
+      "size_bytes": 2055
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "e6d0e01389f54c7cc58f7f6fe32fb75d672f1df0",
+      "size_bytes": 8373
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/restrict_massless.dat": {
+      "git_blob": "7214122fac03d75c725e81186356c235fbedc9c0",
+      "size_bytes": 8373
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/vertices.py": {
+      "git_blob": "aef01b116b20cd31285cee7d14dfe6339af45672",
+      "size_bytes": 646263
+    },
+    "UFO_models/SMEFTsim_MFV_MwScheme_UFO/write_param_card.py": {
+      "git_blob": "b485259dddb13b27fa013824bf8888cd4b8427f3",
+      "size_bytes": 8080
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/CT_couplings.py": {
+      "git_blob": "3693c5c7cdbed57a2c6fadfb2873a74f53d3fe42",
+      "size_bytes": 299
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/coupling_orders.py": {
+      "git_blob": "75d23a34ff3710bb268677479b51e3ad092df8b1",
+      "size_bytes": 8946
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/couplings.py": {
+      "git_blob": "a5de00c3692776015521819125b0f2f5e5492781",
+      "size_bytes": 1477800
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/decays.py": {
+      "git_blob": "a4f2fe3cb7ec857e577e8bcaac0f8d9aa6c618c4",
+      "size_bytes": 5300363
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/lorentz.py": {
+      "git_blob": "37570125f4d3a3f2a3b77deae3a55ba398a608fa",
+      "size_bytes": 70273
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/param_card_massless.dat": {
+      "git_blob": "f50762d968f9b22182ceca5138da1d1d64573b92",
+      "size_bytes": 6230
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/parameters.py": {
+      "git_blob": "7f6088ed8b3e2cb5016351b95e7de998559d890c",
+      "size_bytes": 64275
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/propagators.py": {
+      "git_blob": "9682df365678a698d783001f5dadb1a406f28ba5",
+      "size_bytes": 2205
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "6cdb89e60770289efc9aba28f55a63101b444800",
+      "size_bytes": 8410
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/restrict_massless.dat": {
+      "git_blob": "e2a3a2ab44a303505010388a11621d5c6bb92577",
+      "size_bytes": 8410
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/vertices.py": {
+      "git_blob": "c4edd680c81a91af87d5fc6a78c4910468fd92ef",
+      "size_bytes": 655850
+    },
+    "UFO_models/SMEFTsim_MFV_alphaScheme_UFO/write_param_card.py": {
+      "git_blob": "b485259dddb13b27fa013824bf8888cd4b8427f3",
+      "size_bytes": 8080
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/CT_couplings.py": {
+      "git_blob": "5fa8acc3b1da07a7975937e9c4d84f79a993cb53",
+      "size_bytes": 299
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/coupling_orders.py": {
+      "git_blob": "763b077fe58e10b75e61220f696949b4e1a031d9",
+      "size_bytes": 9226
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/couplings.py": {
+      "git_blob": "39c98176b21c0bad601e326a4742b31f5c21d184",
+      "size_bytes": 626898
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/decays.py": {
+      "git_blob": "f553b3c68217a62870e61825c440bd62cfead9c7",
+      "size_bytes": 127086
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/lorentz.py": {
+      "git_blob": "8790b3d6b4c899686600b009bad16a9618e91290",
+      "size_bytes": 113664
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/param_card_massless.dat": {
+      "git_blob": "2697d57677645831f6a93df515d4d429c62ffc16",
+      "size_bytes": 6078
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/parameters.py": {
+      "git_blob": "37cdec9d0d62858e468e178e05f8710f6711c6c2",
+      "size_bytes": 50737
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/propagators.py": {
+      "git_blob": "bd110e672ecef582fefbcde2bad97030c8adcd7b",
+      "size_bytes": 2055
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "9447b4586f54e706adf7bc3179893e5d1a5069a8",
+      "size_bytes": 6824
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/restrict_massless.dat": {
+      "git_blob": "b109327ad32b19e672af3813593d2d5f4200bf39",
+      "size_bytes": 6824
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/vertices.py": {
+      "git_blob": "0f0aef31efe2150f20fbb04b68b4a0c168029057",
+      "size_bytes": 378908
+    },
+    "UFO_models/SMEFTsim_U35_MwScheme_UFO/write_param_card.py": {
+      "git_blob": "0bfd31feceafe10c224fd1e1e62321bb2628e06d",
+      "size_bytes": 8081
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/CT_couplings.py": {
+      "git_blob": "ed1fdd20dca6432fd5129579565b6037ee0cde55",
+      "size_bytes": 299
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/coupling_orders.py": {
+      "git_blob": "f75a526ea2c4c902e434114dfcd5a070f03b8959",
+      "size_bytes": 9226
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/couplings.py": {
+      "git_blob": "75f5c71d7c3def5d12dc52ee1c471fa77e01fc10",
+      "size_bytes": 642296
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/decays.py": {
+      "git_blob": "9054885dfbdf51955c020fcd7d48f61230291bec",
+      "size_bytes": 214862
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/lorentz.py": {
+      "git_blob": "8c63b7478e6a5952fd4631b839c9a87371f53982",
+      "size_bytes": 114287
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/param_card_massless.dat": {
+      "git_blob": "08082802cd0526090f883a1f587cb1ec705b583a",
+      "size_bytes": 6115
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/parameters.py": {
+      "git_blob": "5bf4d178188c0b34d08131ffbbed82707cdc8579",
+      "size_bytes": 51379
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/propagators.py": {
+      "git_blob": "9682df365678a698d783001f5dadb1a406f28ba5",
+      "size_bytes": 2205
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "d4919dca02e6449fdb97e304dc3c1858a1ae2a55",
+      "size_bytes": 6861
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/restrict_massless.dat": {
+      "git_blob": "46f3aa053be6f1acde5b34fe8eb3c5092a8fbd87",
+      "size_bytes": 6861
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/vertices.py": {
+      "git_blob": "975955b480634e0429a8861dd95f3a850fd39c3a",
+      "size_bytes": 386355
+    },
+    "UFO_models/SMEFTsim_U35_alphaScheme_UFO/write_param_card.py": {
+      "git_blob": "0bfd31feceafe10c224fd1e1e62321bb2628e06d",
+      "size_bytes": 8081
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/CT_couplings.py": {
+      "git_blob": "ae8dddc3e16c510c11f0443a62a5c5b07c1293a6",
+      "size_bytes": 298
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/coupling_orders.py": {
+      "git_blob": "cbec56f7783334d0c064bbb7f7b4afd81bdc22bd",
+      "size_bytes": 8325
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/couplings.py": {
+      "git_blob": "ead9fc167fd7a515cddff3e13e6abbd64e8ecbc5",
+      "size_bytes": 3576832
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/decays.py": {
+      "git_blob": "219eb471192861513439279fa0d7e524a1eb49a7",
+      "size_bytes": 27786497
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/lorentz.py": {
+      "git_blob": "192658ace0b6d8fa699a6ea54749e6cd1e0a164d",
+      "size_bytes": 114748
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/param_card_massless.dat": {
+      "git_blob": "4cf34951f5b83e3e7cad861d96b118d9d2b16cab",
+      "size_bytes": 14398
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/parameters.py": {
+      "git_blob": "d9ab4273e9ecec5f4d9460b2491e5295e3aeb56c",
+      "size_bytes": 780598
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/propagators.py": {
+      "git_blob": "bd110e672ecef582fefbcde2bad97030c8adcd7b",
+      "size_bytes": 2055
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "a26648c061f37b8683e4e2e9fc5252eb423b452b",
+      "size_bytes": 87352
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/restrict_massless.dat": {
+      "git_blob": "be2db5e412bb27dee19126d6559e60651399f0a2",
+      "size_bytes": 87352
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/vertices.py": {
+      "git_blob": "3365a006b0c9bc7140ff76808c474b920a867fd5",
+      "size_bytes": 1308361
+    },
+    "UFO_models/SMEFTsim_general_MwScheme_UFO/write_param_card.py": {
+      "git_blob": "0bfd31feceafe10c224fd1e1e62321bb2628e06d",
+      "size_bytes": 8081
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/CT_couplings.py": {
+      "git_blob": "6c6cf70782e81e5e8297c765c006daf8d69cd8ad",
+      "size_bytes": 298
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/coupling_orders.py": {
+      "git_blob": "b0940553244a0d1ee6472445fd24b912bece4c97",
+      "size_bytes": 8449
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/couplings.py": {
+      "git_blob": "39531b79ef1471826b178f5b703d9f09c6a9aaf6",
+      "size_bytes": 3612304
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/decays.py": {
+      "git_blob": "e402d12cad6ed64a82de0d2e53ee00e5d05cb0a7",
+      "size_bytes": 39372893
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/lorentz.py": {
+      "git_blob": "22f3b87396769eb9a619076d99f0766bd34771b4",
+      "size_bytes": 115846
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/param_card_massless.dat": {
+      "git_blob": "5d64e98bdee42e6d236bb2394482112fedda0f00",
+      "size_bytes": 14435
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/parameters.py": {
+      "git_blob": "b8064428eae40f4beee5fd9a3f0616f46c914694",
+      "size_bytes": 781243
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/propagators.py": {
+      "git_blob": "9682df365678a698d783001f5dadb1a406f28ba5",
+      "size_bytes": 2205
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "664fb4d35fcf89badabcde50aa9a076d8707e9fc",
+      "size_bytes": 87389
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/restrict_massless.dat": {
+      "git_blob": "4f03e5a1dc25d0177fc4d0b3f3b9ec52bf5b6e1a",
+      "size_bytes": 87389
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/vertices.py": {
+      "git_blob": "40c15fdb88cd11628e9ddbb2b4de1455e3a44b56",
+      "size_bytes": 1315204
+    },
+    "UFO_models/SMEFTsim_general_alphaScheme_UFO/write_param_card.py": {
+      "git_blob": "0bfd31feceafe10c224fd1e1e62321bb2628e06d",
+      "size_bytes": 8081
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/CT_couplings.py": {
+      "git_blob": "fbc3f6f1a763e38deecd15f45d9caa54a82a14e7",
+      "size_bytes": 299
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/coupling_orders.py": {
+      "git_blob": "e31de05b1bd7d018ba1a81a37fa9d3959657df51",
+      "size_bytes": 18154
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/couplings.py": {
+      "git_blob": "0d4eac20263e2287de000790edd77f4d4a374a4b",
+      "size_bytes": 219561
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/decays.py": {
+      "git_blob": "60337370908c232dd9618ce8d13c2c7b78715040",
+      "size_bytes": 74772
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/lorentz.py": {
+      "git_blob": "98d8cb29dff90444c30974ad46e21821a5d774fe",
+      "size_bytes": 113867
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/param_card_massless.dat": {
+      "git_blob": "e813bd3efadd2f459423e7025b3ba44fa180efaf",
+      "size_bytes": 8026
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/parameters.py": {
+      "git_blob": "b74cbb2e37fd6c92a35f8937bda6188f57ede3fc",
+      "size_bytes": 79931
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/propagators.py": {
+      "git_blob": "bd110e672ecef582fefbcde2bad97030c8adcd7b",
+      "size_bytes": 2055
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "0e75460ac4b719f0b59916058955a598525502e7",
+      "size_bytes": 9379
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/restrict_massless.dat": {
+      "git_blob": "ee0f6556c14ac203f5aeb658a11c723c3aaec1bc",
+      "size_bytes": 9508
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/vertices.py": {
+      "git_blob": "3aac85c6f891ebb95b2f01c4e809c336a1a402f6",
+      "size_bytes": 249672
+    },
+    "UFO_models/SMEFTsim_topU3l_MwScheme_UFO/write_param_card.py": {
+      "git_blob": "0bfd31feceafe10c224fd1e1e62321bb2628e06d",
+      "size_bytes": 8081
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/CT_couplings.py": {
+      "git_blob": "32b4da43a552ab5db602408d015602f3810a87d7",
+      "size_bytes": 299
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/coupling_orders.py": {
+      "git_blob": "7f4b300258b0c28a17a73031e6c7515daa41cd8e",
+      "size_bytes": 18154
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/couplings.py": {
+      "git_blob": "398f939ddad08e0488ab9614738b98a2af43c053",
+      "size_bytes": 225695
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/decays.py": {
+      "git_blob": "2ff52489885aad38e0c436dc78fe25e17791979a",
+      "size_bytes": 200206
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/lorentz.py": {
+      "git_blob": "f7992e216d0da4da3e79efb6ecbd3825fe7560df",
+      "size_bytes": 114696
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/param_card_massless.dat": {
+      "git_blob": "05d75ad7d7915f4df9ca4fade8954a9587904a54",
+      "size_bytes": 8063
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/parameters.py": {
+      "git_blob": "bb67eb24785def9e6dc919b5a5c157df032700d8",
+      "size_bytes": 80575
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/propagators.py": {
+      "git_blob": "9682df365678a698d783001f5dadb1a406f28ba5",
+      "size_bytes": 2205
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "e99c1522038ddcf7852c2ebd20f560beb5f61f82",
+      "size_bytes": 9416
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/restrict_massless.dat": {
+      "git_blob": "a571fd157a5fa83af7b1b5b368643e3070224514",
+      "size_bytes": 9497
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/vertices.py": {
+      "git_blob": "9812b38b3a09b2a11b072c0a958b4016463543f1",
+      "size_bytes": 251373
+    },
+    "UFO_models/SMEFTsim_topU3l_alphaScheme_UFO/write_param_card.py": {
+      "git_blob": "0bfd31feceafe10c224fd1e1e62321bb2628e06d",
+      "size_bytes": 8081
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/CT_couplings.py": {
+      "git_blob": "3e316422ff3870268e60f68e5c136e645f8b1847",
+      "size_bytes": 299
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/coupling_orders.py": {
+      "git_blob": "dacba583a050b0d123e5d10f83e01f56cf951bdd",
+      "size_bytes": 18278
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/couplings.py": {
+      "git_blob": "3b8db535d845f9b87de890c86aa17e7455d95a8f",
+      "size_bytes": 237142
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/decays.py": {
+      "git_blob": "11888b2afa4a815fc3170e815ec7885f83cb6b27",
+      "size_bytes": 91997
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/lorentz.py": {
+      "git_blob": "6f4ad04c1ccb82cb69fd9a2dcd7b60d83c3aec9c",
+      "size_bytes": 114078
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/param_card_massless.dat": {
+      "git_blob": "48979ada7daf4e6a7d41349920c6f52d133676bb",
+      "size_bytes": 10319
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/parameters.py": {
+      "git_blob": "b22652663a3870c15a43e52db6d177430c20348a",
+      "size_bytes": 111482
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/propagators.py": {
+      "git_blob": "bd110e672ecef582fefbcde2bad97030c8adcd7b",
+      "size_bytes": 2055
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "66d8cd425fe89d56ad8d0facc8b2245070e050db",
+      "size_bytes": 12262
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/restrict_massless.dat": {
+      "git_blob": "5959a03958dd91f3ebd8b6ea03747cd4a049ebdd",
+      "size_bytes": 12262
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/vertices.py": {
+      "git_blob": "07e43af6fa3324060fddb079d75b1f809f09cae2",
+      "size_bytes": 250090
+    },
+    "UFO_models/SMEFTsim_top_MwScheme_UFO/write_param_card.py": {
+      "git_blob": "0bfd31feceafe10c224fd1e1e62321bb2628e06d",
+      "size_bytes": 8081
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/CT_couplings.py": {
+      "git_blob": "2196bc299681d6ba5766c34cf122f596c0786d38",
+      "size_bytes": 299
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/__init__.py": {
+      "git_blob": "3b232b730d7b4eb4e98c35646e20fcb43cb26e67",
+      "size_bytes": 907
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/coupling_orders.py": {
+      "git_blob": "5f261240935e63330f18ba186824ccdd9f1e935c",
+      "size_bytes": 18278
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/couplings.py": {
+      "git_blob": "a65ad4162dd4e333cb8aac3ad317f6815fe80694",
+      "size_bytes": 237682
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/decays.py": {
+      "git_blob": "f1e751068a621112ea9462b2c4e23a7081072afd",
+      "size_bytes": 261500
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/function_library.py": {
+      "git_blob": "c96d23f8b63c877440b8768f50a0b5bf040a20f8",
+      "size_bytes": 1949
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/lorentz.py": {
+      "git_blob": "9d95cb73269a30ebdee952f6092b07d17dea12af",
+      "size_bytes": 113962
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/object_library.py": {
+      "git_blob": "0bf4cee79efdb05828f7461f346f90f504143e98",
+      "size_bytes": 10881
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/param_card_massless.dat": {
+      "git_blob": "ddfdf175c026184b0b1ba36ea972f71b177cbca7",
+      "size_bytes": 10356
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/parameters.py": {
+      "git_blob": "43ca723d757fcf270cf9118b1ee6b7bfd5ba3e44",
+      "size_bytes": 112130
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/particles.py": {
+      "git_blob": "3e361b6d340b60af22e443d293ec5564ee7d40f6",
+      "size_bytes": 9314
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/propagators.py": {
+      "git_blob": "9682df365678a698d783001f5dadb1a406f28ba5",
+      "size_bytes": 2205
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/restrict_SMlimit_massless.dat": {
+      "git_blob": "42130d516dd5435aa708f16456f8e505ea351c32",
+      "size_bytes": 12299
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/restrict_massless.dat": {
+      "git_blob": "381d8193658625eb03e83f8acd7ffc578e3bb488",
+      "size_bytes": 12299
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/version.info": {
+      "git_blob": "327a93fe67af060de5782089cedbd438c0f21418",
+      "size_bytes": 12
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/vertices.py": {
+      "git_blob": "d2eb9adb0eabf906b6f002be5a10daef628ef8d7",
+      "size_bytes": 250003
+    },
+    "UFO_models/SMEFTsim_top_alphaScheme_UFO/write_param_card.py": {
+      "git_blob": "0bfd31feceafe10c224fd1e1e62321bb2628e06d",
+      "size_bytes": 8081
+    }
+  },
+  "repository": "https://github.com/SMEFTsim/SMEFTsim",
+  "tag": "v3.0.2",
+  "version": "3.0.2"
+}

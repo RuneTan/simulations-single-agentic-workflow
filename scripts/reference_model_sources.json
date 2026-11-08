@@ -1,0 +1,110 @@
+{
+  "repository": "https://github.com/IlariaBrivio/SMEFTsim_tutorial_June23",
+  "commit": "92ffde994d7c0d90554ee629cc477ee171c76b84",
+  "model": {
+    "model_id": "SMEFTsim_U35_MwScheme_UFO",
+    "version": "3.0.2",
+    "variant": "June23 tutorial UFO",
+    "basis": "Warsaw",
+    "flavour_scheme": "U35",
+    "ew_input_scheme": "MwScheme",
+    "restriction": "massless_Hvlvl"
+  },
+  "files": {
+    "CT_couplings.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/CT_couplings.py",
+      "sha256": "1efd212395d5760f114df3c2d9663ef86007df464ff2a702f641eccadffb337e",
+      "size_bytes": 299
+    },
+    "__init__.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/__init__.py",
+      "sha256": "d1024bbe48c55b711b693bcef28730113302ef9b5581fc43ed2939a251ac9f85",
+      "size_bytes": 907
+    },
+    "coupling_orders.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/coupling_orders.py",
+      "sha256": "17955f86045917ee43996114a3a7e3e38d9a48af1070b42f6cfb13f3a25d7f6f",
+      "size_bytes": 9227
+    },
+    "couplings.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/couplings.py",
+      "sha256": "753496c55eda3134e12b186d1b37bc93f09c675e2adf4fbbd2eca3790b246ef3",
+      "size_bytes": 626898
+    },
+    "decays.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/decays.py",
+      "sha256": "21910b96daaa658fb0bccd1accf7698f57b20452015822b946dcbaa1a6bd04ec",
+      "size_bytes": 127086
+    },
+    "function_library.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/function_library.py",
+      "sha256": "596e28fed5966088b6ee1d193e4dfbfd0f59a5837b283bc0dbaacb18bab1510c",
+      "size_bytes": 1949
+    },
+    "lorentz.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/lorentz.py",
+      "sha256": "87bded08b73b0d00cf9f200d29f92c1c0f1f6898e8be21a4b8ee1b3f1e459936",
+      "size_bytes": 113664
+    },
+    "object_library.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/object_library.py",
+      "sha256": "5cdc21136c1c9ff06b2c67274792b432c2ca81a7aca29d5610293c09da00917e",
+      "size_bytes": 10881
+    },
+    "param_card_massless.dat": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/param_card_massless.dat",
+      "sha256": "16cb6abd76f810fc1b1d2f2483e7b9ca9065d8f984ce4f4153eef332733d25b7",
+      "size_bytes": 6078
+    },
+    "parameters.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/parameters.py",
+      "sha256": "3ad4cce0c6c588f2d3f2c10e242233c21965c1de1ad09eaf21de6528db6d02a4",
+      "size_bytes": 50737
+    },
+    "particles.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/particles.py",
+      "sha256": "553789aaa48040661e4cf27159b12163a52909408699c3753b997d2fcc719396",
+      "size_bytes": 9314
+    },
+    "propagators.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/propagators.py",
+      "sha256": "301e09831aef4d7836975a96b5214ed029f91fcddd52565863921b3570a40294",
+      "size_bytes": 2055
+    },
+    "restrict_SMlimit_massless.dat": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/restrict_SMlimit_massless.dat",
+      "sha256": "26ac6cae9f8efbb85ff9dc2a51d571fb6cc0152a4f7a44644bef02dda082690b",
+      "size_bytes": 6824
+    },
+    "restrict_massless.dat": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/restrict_massless.dat",
+      "sha256": "5f703f93fd8771a1ce148f0b223a6341aaf3ba09626df6096af52a4403471e2e",
+      "size_bytes": 6824
+    },
+    "restrict_massless_Hvlvl.dat": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/restrict_massless_Hvlvl.dat",
+      "sha256": "f206d790e9eb1169cf720ce74889062de613d0468ff19c769721760dd7b29c89",
+      "size_bytes": 6824
+    },
+    "restrict_massless_VBF.dat": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/restrict_massless_VBF.dat",
+      "sha256": "a7455552c8835e5c96b227176e4fb66735fe93883fa4e39a39eac9c2fdfa7dfa",
+      "size_bytes": 6824
+    },
+    "version.info": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/version.info",
+      "sha256": "a7ef648e8ed76c4db6bc54e70a49c3669301c5498aee221d679242d0c040f202",
+      "size_bytes": 12
+    },
+    "vertices.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/vertices.py",
+      "sha256": "09d7193bc3967fe24735a0d5aa1bfa1da9515fff908b6410811a5334926b9d02",
+      "size_bytes": 378908
+    },
+    "write_param_card.py": {
+      "path": "Material/SMEFTsim_U35_MwScheme_UFO/write_param_card.py",
+      "sha256": "daad43aed58db704526037046a36183a7357fe7351ee707e2e89d350db31a927",
+      "size_bytes": 8081
+    }
+  }
+}

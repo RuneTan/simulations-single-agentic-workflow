@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/AadarshSingh0/HEPToolBench",
+  "commit": "d3e1ad7fb8392bf27b930f2274fe736fed3b0b21",
+  "contract": "HEPToolBench benchmark suite v1.2.1 candidate (B1_W1_S1R)",
+  "upstream_files_sha256": {
+    "LICENSE": "fcd19da20344ff2c10d17eb12ff421d6fb3d9e52cd9fd3867ff4d73a3e9930e0",
+    "VERSION": "c7bc3cef73c944efea17438aacb4b695fe1f821a91699c24adc4e8987351b6ef",
+    "mg_basic_001/expected/proc_card.dat": "109de18f8044fac87b7eefb5bd9acc57916e292ba232ccffe8211a3201abd19b",
+    "mg_basic_001/input/proc_card_template.dat": "29ce23c8ffa58e18db135bab749d927b2dfd5d0e763929ea0f8b7a4fea86186f",
+    "mg_basic_001/metadata.json": "0c0def53b4b78a64e178662a501a426b1df5f3074ecb9a84afd5d0865cb51659",
+    "mg_basic_001/prompt.md": "5a1a1b83b4bd225384de572db81e96ec20a1e6f8bb14f1208f468b92a2fd6011",
+    "mg_basic_001/tests/score.py": "5a6a15717f20e8473a32ff29fe8901548eee44d22e63fb3203ff9a0c29c0c126",
+    "mg_basic_002/expected/proc_card.dat": "1318967360004ca8c71ba3dbc380210de340286f5c7cd50980cd3d24120c4f63",
+    "mg_basic_002/metadata.json": "bdc364401e2d9781ed2b50de5ca025d1776445a16484d69a82091099a96c3bb5",
+    "mg_basic_002/prompt.md": "7018996bbccece34618b33f65a22aad41dcb7bf514663adafd2b5d5d696e5bdc",
+    "mg_basic_002/tests/score.py": "a73cddc15395027b27208a6f4225264a70d58ef40528d310fe7f200ac67d27d5",
+    "mg_runcard_004/expected/run_card.dat": "98cee158557318977cb7553d54829d65652c5321bab6c80e72e8b16dc7b53f51",
+    "mg_runcard_004/metadata.json": "a74717a87394c5fb6ebdf73ad79de88ac003c4ad47b1afea695cf460910ca5ba",
+    "mg_runcard_004/prompt.md": "8c645ebfdceb1ee4bcffb16d80943d73125f11fa21272249d7fff1673c867ba1",
+    "mg_runcard_004/tests/score.py": "5fff583f6b569d3315c4becc095938a145e0a203cfa38319516af3f549d8ae60"
+  },
+  "request_sha256": {
+    "mg_basic_001": "0894dbf3458fcc129409193fef948b8ff8c981b947c3c77043dc51bcd5bfcb6b",
+    "mg_basic_002": "1aea6a3e432338df4a5278a0b3d81fa57d62e6f7885cac1a12226ef4dc67b048",
+    "mg_runcard_004": "96e5af0c32534ee1d58507fe7a591f605800a8d6ab7b68451e2f1e7b0a3a2484"
+  }
+}

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling==1.32.4"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simulations-single-agentic-workflow"
+version = "0.2.0"
+description = "A single-agent LangGraph workflow for particle simulations with independent checkers."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "langgraph==1.2.17",
+  "matplotlib>=3.11.2",
+  "pydantic==2.14.1",
+  "six==1.17.0",
+]
+
+[dependency-groups]
+dev = ["pytest==9.1.1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nsbi_agent"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

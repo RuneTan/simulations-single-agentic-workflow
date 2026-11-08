@@ -1,0 +1,7 @@
+case,gates_enabled,task_id,status,standalone_card_present,official_score_on_workflow_card,official_pass_on_workflow_card,official_banner_score,official_banner_pass,event_count,tokens,elapsed_s,automatic_check_records,job_launches,repairs
+mg_basic_001,True,task12,completed,False,0.3,False,0.3,False,10000,200194,84.0,5,1,0
+mg_basic_001,False,task13,completed,False,0.3,False,0.3,False,10000,198020,72.0,0,1,0
+mg_basic_002,False,task14,completed,False,0.3,False,0.3,False,10000,163815,78.0,0,1,0
+mg_basic_002,True,task15,completed,False,0.3,False,0.3,False,10000,290313,124.0,7,1,2
+mg_runcard_004,True,task16,failed,False,,,,,,163597,44.0,2,0,0
+mg_runcard_004,False,task17,completed,False,0.85,False,1.0,True,10000,121322,63.0,0,1,0

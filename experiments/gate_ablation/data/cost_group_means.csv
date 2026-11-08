@@ -1,0 +1,3 @@
+group,task_count,plan,cards,review,analysis,input,output,total
+gated,4,10283.0,85111.25,34080.25,30355.75,150091.75,9738.5,159830.25
+ungated,4,9944.5,74997.75,0.0,46556.25,124428.75,7069.75,131498.5

@@ -1,0 +1,13 @@
+{
+  "simulation": {
+    "model": {
+      "collection": "official"
+    },
+    "process": "p p > z, z > e- e+",
+    "stage": "parton"
+  },
+  "analysis": {
+    "observable": "m_ee",
+    "bins": 30
+  }
+}

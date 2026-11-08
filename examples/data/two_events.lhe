@@ -1,0 +1,23 @@
+<LesHouchesEvents version="3.0">
+<header><initrwgt><weight id="c1">point 1</weight></initrwgt></header>
+<init>
+11 -11 10 10 0 0 0 0 -1 1
+0.1 0.01 2 1
+</init>
+<event>
+4 1 1.5 20 0.007 0.118
+11 -1 0 0 0 0 0 0 10 10 0 0 9
+-11 -1 0 0 0 0 0 0 -10 10 0 0 9
+13 1 1 2 0 0 10 0 0 10 0 0 9
+-13 1 1 2 0 0 -10 0 0 10 0 0 9
+<rwgt><wgt id="c1">2</wgt></rwgt>
+</event>
+<event>
+4 1 -0.5 20 0.007 0.118
+11 -1 0 0 0 0 0 0 10 10 0 0 9
+-11 -1 0 0 0 0 0 0 -10 10 0 0 9
+13 1 1 2 0 0 10 0 0 10 0 0 9
+-13 1 1 2 0 0 -10 0 0 10 0 0 9
+<rwgt><wgt id="c1">-1</wgt></rwgt>
+</event>
+</LesHouchesEvents>

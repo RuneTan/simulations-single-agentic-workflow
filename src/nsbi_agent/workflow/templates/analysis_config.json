@@ -1,0 +1,7 @@
+{
+  "task_id": "T0-sm-baseline",
+  "sample_label": "pp @ 13 TeV, e+ e- (SM point)",
+  "event_file": "/absolute/path/to/unweighted_events.lhe.gz",
+  "nevents": 1000,
+  "seed": 13579
+}

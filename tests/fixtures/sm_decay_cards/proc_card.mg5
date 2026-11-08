@@ -1,0 +1,2 @@
+import model {PROJECT_ROOT}/models/smeftsim/3.0.2/SMEFTsim_U35_MwScheme_UFO-SMlimit_massless
+generate h > e- ve~ mu+ vm QCD<=0 QED<=4 SMHLOOP=0 NP=0 NPprop=0

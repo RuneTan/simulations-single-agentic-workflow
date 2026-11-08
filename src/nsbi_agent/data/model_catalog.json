@@ -1,0 +1,1216 @@
+{
+  "catalog_version": 1,
+  "coupling_orders": {
+    "NP": 99,
+    "NPcG": 99,
+    "NPcGtil": 99,
+    "NPcH": 99,
+    "NPcHB": 99,
+    "NPcHBtil": 99,
+    "NPcHDD": 99,
+    "NPcHG": 99,
+    "NPcHGtil": 99,
+    "NPcHW": 99,
+    "NPcHWB": 99,
+    "NPcHWBtil": 99,
+    "NPcHWtil": 99,
+    "NPcHbox": 99,
+    "NPcHd": 99,
+    "NPcHe": 99,
+    "NPcHl1": 99,
+    "NPcHl3": 99,
+    "NPcHq1": 99,
+    "NPcHq3": 99,
+    "NPcHu": 99,
+    "NPcHud": 99,
+    "NPcW": 99,
+    "NPcWtil": 99,
+    "NPcdB": 99,
+    "NPcdG": 99,
+    "NPcdH": 99,
+    "NPcdW": 99,
+    "NPcdd": 99,
+    "NPcdd1": 99,
+    "NPceB": 99,
+    "NPceH": 99,
+    "NPceW": 99,
+    "NPced": 99,
+    "NPcee": 99,
+    "NPceu": 99,
+    "NPcld": 99,
+    "NPcle": 99,
+    "NPcledq": 99,
+    "NPclequ1": 99,
+    "NPclequ3": 99,
+    "NPcll": 99,
+    "NPcll1": 99,
+    "NPclq1": 99,
+    "NPclq3": 99,
+    "NPclu": 99,
+    "NPcpv": 99,
+    "NPcqd1": 99,
+    "NPcqd8": 99,
+    "NPcqe": 99,
+    "NPcqq1": 99,
+    "NPcqq11": 99,
+    "NPcqq3": 99,
+    "NPcqq31": 99,
+    "NPcqu1": 99,
+    "NPcqu8": 99,
+    "NPcquqd1": 99,
+    "NPcquqd11": 99,
+    "NPcquqd8": 99,
+    "NPcquqd81": 99,
+    "NPcuB": 99,
+    "NPcuG": 99,
+    "NPcuH": 99,
+    "NPcuW": 99,
+    "NPcud1": 99,
+    "NPcud8": 99,
+    "NPcuu": 99,
+    "NPcuu1": 99,
+    "NPprop": 99,
+    "NPshifts": 99,
+    "QCD": 99,
+    "QED": 99,
+    "SMHLOOP": 99
+  },
+  "model": {
+    "basis": "Warsaw",
+    "ew_input_scheme": "MwScheme",
+    "flavour_scheme": "U35",
+    "model_id": "SMEFTsim_U35_MwScheme_UFO",
+    "restriction": "massless_Hvlvl",
+    "variant": "June23 tutorial UFO",
+    "version": "3.0.2"
+  },
+  "parameters": {
+    "CKMA": {
+      "block": "CKMBLOCK",
+      "code": [
+        3
+      ],
+      "restriction_value": 0.0,
+      "source_line": 28,
+      "ufo_default": 0.79
+    },
+    "CKMeta": {
+      "block": "CKMBLOCK",
+      "code": [
+        5
+      ],
+      "restriction_value": 0.0,
+      "source_line": 44,
+      "ufo_default": 0.357
+    },
+    "CKMlambda": {
+      "block": "CKMBLOCK",
+      "code": [
+        2
+      ],
+      "restriction_value": 0.0,
+      "source_line": 20,
+      "ufo_default": 0.2265
+    },
+    "CKMrho": {
+      "block": "CKMBLOCK",
+      "code": [
+        4
+      ],
+      "restriction_value": 0.0,
+      "source_line": 36,
+      "ufo_default": 0.141
+    },
+    "Gf": {
+      "block": "SMINPUTS",
+      "code": [
+        2
+      ],
+      "restriction_value": 1.166379e-05,
+      "source_line": 748,
+      "ufo_default": 1.1663787e-05
+    },
+    "LambdaSMEFT": {
+      "block": "SMEFTCUTOFF",
+      "code": [
+        1
+      ],
+      "restriction_value": 1000.0,
+      "source_line": 732,
+      "ufo_default": 1000
+    },
+    "MB": {
+      "block": "MASS",
+      "code": [
+        5
+      ],
+      "restriction_value": 4.18,
+      "source_line": 916,
+      "ufo_default": 4.18
+    },
+    "MC": {
+      "block": "MASS",
+      "code": [
+        4
+      ],
+      "restriction_value": 0.0,
+      "source_line": 884,
+      "ufo_default": 1.27
+    },
+    "MD": {
+      "block": "MASS",
+      "code": [
+        1
+      ],
+      "restriction_value": 0.0,
+      "source_line": 900,
+      "ufo_default": 0.00467
+    },
+    "MH": {
+      "block": "MASS",
+      "code": [
+        25
+      ],
+      "restriction_value": 125.09,
+      "source_line": 924,
+      "ufo_default": 125.09
+    },
+    "MMU": {
+      "block": "MASS",
+      "code": [
+        13
+      ],
+      "restriction_value": 0.0,
+      "source_line": 860,
+      "ufo_default": 0.10566
+    },
+    "MS": {
+      "block": "MASS",
+      "code": [
+        3
+      ],
+      "restriction_value": 0.0,
+      "source_line": 908,
+      "ufo_default": 0.093
+    },
+    "MT": {
+      "block": "MASS",
+      "code": [
+        6
+      ],
+      "restriction_value": 172.76,
+      "source_line": 892,
+      "ufo_default": 172.76
+    },
+    "MTA": {
+      "block": "MASS",
+      "code": [
+        15
+      ],
+      "restriction_value": 1.777,
+      "source_line": 868,
+      "ufo_default": 1.777
+    },
+    "MU": {
+      "block": "MASS",
+      "code": [
+        2
+      ],
+      "restriction_value": 0.0,
+      "source_line": 876,
+      "ufo_default": 0.00216
+    },
+    "MW": {
+      "block": "SMINPUTS",
+      "code": [
+        1
+      ],
+      "restriction_value": 80.387,
+      "source_line": 740,
+      "ufo_default": 80.387
+    },
+    "MZ": {
+      "block": "MASS",
+      "code": [
+        23
+      ],
+      "restriction_value": 91.1876,
+      "source_line": 844,
+      "ufo_default": 91.1876
+    },
+    "Me": {
+      "block": "MASS",
+      "code": [
+        11
+      ],
+      "restriction_value": 0.0,
+      "source_line": 852,
+      "ufo_default": 0.000511
+    },
+    "WH": {
+      "block": "DECAY",
+      "code": [
+        25
+      ],
+      "restriction_value": 0.00407,
+      "source_line": 956,
+      "ufo_default": 0.00407
+    },
+    "WT": {
+      "block": "DECAY",
+      "code": [
+        6
+      ],
+      "restriction_value": 1.33,
+      "source_line": 948,
+      "ufo_default": 1.33
+    },
+    "WW": {
+      "block": "DECAY",
+      "code": [
+        24
+      ],
+      "restriction_value": 2.085,
+      "source_line": 940,
+      "ufo_default": 2.085
+    },
+    "WZ": {
+      "block": "DECAY",
+      "code": [
+        23
+      ],
+      "restriction_value": 2.4952,
+      "source_line": 932,
+      "ufo_default": 2.4952
+    },
+    "aS": {
+      "block": "SMINPUTS",
+      "code": [
+        3
+      ],
+      "restriction_value": 0.1179,
+      "source_line": 756,
+      "ufo_default": 0.1179
+    },
+    "cG": {
+      "block": "SMEFT",
+      "code": [
+        1
+      ],
+      "restriction_value": 0.0,
+      "source_line": 52,
+      "ufo_default": 0
+    },
+    "cGtil": {
+      "block": "SMEFTCPV",
+      "code": [
+        1
+      ],
+      "restriction_value": 0.0,
+      "source_line": 532,
+      "ufo_default": 0
+    },
+    "cH": {
+      "block": "SMEFT",
+      "code": [
+        3
+      ],
+      "restriction_value": 0.0,
+      "source_line": 68,
+      "ufo_default": 0
+    },
+    "cHB": {
+      "block": "SMEFT",
+      "code": [
+        8
+      ],
+      "restriction_value": 0.0,
+      "source_line": 108,
+      "ufo_default": 0
+    },
+    "cHBtil": {
+      "block": "SMEFTCPV",
+      "code": [
+        5
+      ],
+      "restriction_value": 0.0,
+      "source_line": 564,
+      "ufo_default": 0
+    },
+    "cHDD": {
+      "block": "SMEFT",
+      "code": [
+        5
+      ],
+      "restriction_value": 0.0,
+      "source_line": 84,
+      "ufo_default": 0
+    },
+    "cHG": {
+      "block": "SMEFT",
+      "code": [
+        6
+      ],
+      "restriction_value": 0.0,
+      "source_line": 92,
+      "ufo_default": 0
+    },
+    "cHGtil": {
+      "block": "SMEFTCPV",
+      "code": [
+        3
+      ],
+      "restriction_value": 0.0,
+      "source_line": 548,
+      "ufo_default": 0
+    },
+    "cHW": {
+      "block": "SMEFT",
+      "code": [
+        7
+      ],
+      "restriction_value": 0.3,
+      "source_line": 100,
+      "ufo_default": 0
+    },
+    "cHWB": {
+      "block": "SMEFT",
+      "code": [
+        9
+      ],
+      "restriction_value": 0.0,
+      "source_line": 116,
+      "ufo_default": 0
+    },
+    "cHWBtil": {
+      "block": "SMEFTCPV",
+      "code": [
+        6
+      ],
+      "restriction_value": 0.0,
+      "source_line": 572,
+      "ufo_default": 0
+    },
+    "cHWtil": {
+      "block": "SMEFTCPV",
+      "code": [
+        4
+      ],
+      "restriction_value": 0.0,
+      "source_line": 556,
+      "ufo_default": 0
+    },
+    "cHbox": {
+      "block": "SMEFT",
+      "code": [
+        4
+      ],
+      "restriction_value": 0.2,
+      "source_line": 76,
+      "ufo_default": 0
+    },
+    "cHd": {
+      "block": "SMEFT",
+      "code": [
+        27
+      ],
+      "restriction_value": 0.0,
+      "source_line": 260,
+      "ufo_default": 0
+    },
+    "cHe": {
+      "block": "SMEFT",
+      "code": [
+        23
+      ],
+      "restriction_value": 0.0,
+      "source_line": 228,
+      "ufo_default": 0
+    },
+    "cHl1": {
+      "block": "SMEFT",
+      "code": [
+        21
+      ],
+      "restriction_value": 0.0,
+      "source_line": 212,
+      "ufo_default": 0
+    },
+    "cHl3": {
+      "block": "SMEFT",
+      "code": [
+        22
+      ],
+      "restriction_value": 0.5,
+      "source_line": 220,
+      "ufo_default": 0
+    },
+    "cHq1": {
+      "block": "SMEFT",
+      "code": [
+        24
+      ],
+      "restriction_value": 0.0,
+      "source_line": 236,
+      "ufo_default": 0
+    },
+    "cHq3": {
+      "block": "SMEFT",
+      "code": [
+        25
+      ],
+      "restriction_value": 0.6,
+      "source_line": 244,
+      "ufo_default": 0
+    },
+    "cHu": {
+      "block": "SMEFT",
+      "code": [
+        26
+      ],
+      "restriction_value": 0.0,
+      "source_line": 252,
+      "ufo_default": 0
+    },
+    "cHudIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        15
+      ],
+      "restriction_value": 0.0,
+      "source_line": 644,
+      "ufo_default": 0
+    },
+    "cHudRe": {
+      "block": "SMEFT",
+      "code": [
+        28
+      ],
+      "restriction_value": 0.0,
+      "source_line": 268,
+      "ufo_default": 0
+    },
+    "cW": {
+      "block": "SMEFT",
+      "code": [
+        2
+      ],
+      "restriction_value": 0.0,
+      "source_line": 60,
+      "ufo_default": 0
+    },
+    "cWtil": {
+      "block": "SMEFTCPV",
+      "code": [
+        2
+      ],
+      "restriction_value": 0.0,
+      "source_line": 540,
+      "ufo_default": 0
+    },
+    "cdBIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        14
+      ],
+      "restriction_value": 0.0,
+      "source_line": 636,
+      "ufo_default": 0
+    },
+    "cdBRe": {
+      "block": "SMEFT",
+      "code": [
+        20
+      ],
+      "restriction_value": 0.0,
+      "source_line": 204,
+      "ufo_default": 0
+    },
+    "cdGIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        12
+      ],
+      "restriction_value": 0.0,
+      "source_line": 620,
+      "ufo_default": 0
+    },
+    "cdGRe": {
+      "block": "SMEFT",
+      "code": [
+        18
+      ],
+      "restriction_value": 0.0,
+      "source_line": 188,
+      "ufo_default": 0
+    },
+    "cdHIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        18
+      ],
+      "restriction_value": 0.0,
+      "source_line": 668,
+      "ufo_default": 0
+    },
+    "cdHRe": {
+      "block": "SMEFT",
+      "code": [
+        12
+      ],
+      "restriction_value": 0.0,
+      "source_line": 140,
+      "ufo_default": 0
+    },
+    "cdWIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        13
+      ],
+      "restriction_value": 0.0,
+      "source_line": 628,
+      "ufo_default": 0
+    },
+    "cdWRe": {
+      "block": "SMEFT",
+      "code": [
+        19
+      ],
+      "restriction_value": 0.0,
+      "source_line": 196,
+      "ufo_default": 0
+    },
+    "cdd": {
+      "block": "SMEFT",
+      "code": [
+        40
+      ],
+      "restriction_value": 0.0,
+      "source_line": 364,
+      "ufo_default": 0
+    },
+    "cdd1": {
+      "block": "SMEFT",
+      "code": [
+        41
+      ],
+      "restriction_value": 0.0,
+      "source_line": 372,
+      "ufo_default": 0
+    },
+    "ceBIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        8
+      ],
+      "restriction_value": 0.0,
+      "source_line": 588,
+      "ufo_default": 0
+    },
+    "ceBRe": {
+      "block": "SMEFT",
+      "code": [
+        14
+      ],
+      "restriction_value": 0.0,
+      "source_line": 156,
+      "ufo_default": 0
+    },
+    "ceHIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        16
+      ],
+      "restriction_value": 0.0,
+      "source_line": 652,
+      "ufo_default": 0
+    },
+    "ceHRe": {
+      "block": "SMEFT",
+      "code": [
+        10
+      ],
+      "restriction_value": 0.0,
+      "source_line": 124,
+      "ufo_default": 0
+    },
+    "ceWIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        7
+      ],
+      "restriction_value": 0.0,
+      "source_line": 580,
+      "ufo_default": 0
+    },
+    "ceWRe": {
+      "block": "SMEFT",
+      "code": [
+        13
+      ],
+      "restriction_value": 0.0,
+      "source_line": 148,
+      "ufo_default": 0
+    },
+    "ced": {
+      "block": "SMEFT",
+      "code": [
+        43
+      ],
+      "restriction_value": 0.0,
+      "source_line": 388,
+      "ufo_default": 0
+    },
+    "cee": {
+      "block": "SMEFT",
+      "code": [
+        37
+      ],
+      "restriction_value": 0.0,
+      "source_line": 340,
+      "ufo_default": 0
+    },
+    "ceu": {
+      "block": "SMEFT",
+      "code": [
+        42
+      ],
+      "restriction_value": 0.0,
+      "source_line": 380,
+      "ufo_default": 0
+    },
+    "cld": {
+      "block": "SMEFT",
+      "code": [
+        48
+      ],
+      "restriction_value": 0.0,
+      "source_line": 428,
+      "ufo_default": 0
+    },
+    "cle": {
+      "block": "SMEFT",
+      "code": [
+        46
+      ],
+      "restriction_value": 0.0,
+      "source_line": 412,
+      "ufo_default": 0
+    },
+    "cledqIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        19
+      ],
+      "restriction_value": 0.0,
+      "source_line": 676,
+      "ufo_default": 0
+    },
+    "cledqRe": {
+      "block": "SMEFT",
+      "code": [
+        54
+      ],
+      "restriction_value": 0.0,
+      "source_line": 476,
+      "ufo_default": 0
+    },
+    "clequ1Im": {
+      "block": "SMEFTCPV",
+      "code": [
+        24
+      ],
+      "restriction_value": 0.0,
+      "source_line": 716,
+      "ufo_default": 0
+    },
+    "clequ1Re": {
+      "block": "SMEFT",
+      "code": [
+        59
+      ],
+      "restriction_value": 0.0,
+      "source_line": 516,
+      "ufo_default": 0
+    },
+    "clequ3Im": {
+      "block": "SMEFTCPV",
+      "code": [
+        25
+      ],
+      "restriction_value": 0.0,
+      "source_line": 724,
+      "ufo_default": 0
+    },
+    "clequ3Re": {
+      "block": "SMEFT",
+      "code": [
+        60
+      ],
+      "restriction_value": 0.0,
+      "source_line": 524,
+      "ufo_default": 0
+    },
+    "cll": {
+      "block": "SMEFT",
+      "code": [
+        29
+      ],
+      "restriction_value": 0.0,
+      "source_line": 276,
+      "ufo_default": 0
+    },
+    "cll1": {
+      "block": "SMEFT",
+      "code": [
+        30
+      ],
+      "restriction_value": 0.7,
+      "source_line": 284,
+      "ufo_default": 0
+    },
+    "clq1": {
+      "block": "SMEFT",
+      "code": [
+        35
+      ],
+      "restriction_value": 0.0,
+      "source_line": 324,
+      "ufo_default": 0
+    },
+    "clq3": {
+      "block": "SMEFT",
+      "code": [
+        36
+      ],
+      "restriction_value": 0.0,
+      "source_line": 332,
+      "ufo_default": 0
+    },
+    "clu": {
+      "block": "SMEFT",
+      "code": [
+        47
+      ],
+      "restriction_value": 0.0,
+      "source_line": 420,
+      "ufo_default": 0
+    },
+    "cqd1": {
+      "block": "SMEFT",
+      "code": [
+        52
+      ],
+      "restriction_value": 0.0,
+      "source_line": 460,
+      "ufo_default": 0
+    },
+    "cqd8": {
+      "block": "SMEFT",
+      "code": [
+        53
+      ],
+      "restriction_value": 0.0,
+      "source_line": 468,
+      "ufo_default": 0
+    },
+    "cqe": {
+      "block": "SMEFT",
+      "code": [
+        49
+      ],
+      "restriction_value": 0.0,
+      "source_line": 436,
+      "ufo_default": 0
+    },
+    "cqq1": {
+      "block": "SMEFT",
+      "code": [
+        31
+      ],
+      "restriction_value": 0.0,
+      "source_line": 292,
+      "ufo_default": 0
+    },
+    "cqq11": {
+      "block": "SMEFT",
+      "code": [
+        32
+      ],
+      "restriction_value": 0.0,
+      "source_line": 300,
+      "ufo_default": 0
+    },
+    "cqq3": {
+      "block": "SMEFT",
+      "code": [
+        33
+      ],
+      "restriction_value": 0.0,
+      "source_line": 308,
+      "ufo_default": 0
+    },
+    "cqq31": {
+      "block": "SMEFT",
+      "code": [
+        34
+      ],
+      "restriction_value": 0.0,
+      "source_line": 316,
+      "ufo_default": 0
+    },
+    "cqu1": {
+      "block": "SMEFT",
+      "code": [
+        50
+      ],
+      "restriction_value": 0.0,
+      "source_line": 444,
+      "ufo_default": 0
+    },
+    "cqu8": {
+      "block": "SMEFT",
+      "code": [
+        51
+      ],
+      "restriction_value": 0.0,
+      "source_line": 452,
+      "ufo_default": 0
+    },
+    "cquqd11Im": {
+      "block": "SMEFTCPV",
+      "code": [
+        22
+      ],
+      "restriction_value": 0.0,
+      "source_line": 700,
+      "ufo_default": 0
+    },
+    "cquqd11Re": {
+      "block": "SMEFT",
+      "code": [
+        56
+      ],
+      "restriction_value": 0.0,
+      "source_line": 492,
+      "ufo_default": 0
+    },
+    "cquqd1Im": {
+      "block": "SMEFTCPV",
+      "code": [
+        20
+      ],
+      "restriction_value": 0.0,
+      "source_line": 684,
+      "ufo_default": 0
+    },
+    "cquqd1Re": {
+      "block": "SMEFT",
+      "code": [
+        55
+      ],
+      "restriction_value": 0.0,
+      "source_line": 484,
+      "ufo_default": 0
+    },
+    "cquqd81Im": {
+      "block": "SMEFTCPV",
+      "code": [
+        23
+      ],
+      "restriction_value": 0.0,
+      "source_line": 708,
+      "ufo_default": 0
+    },
+    "cquqd81Re": {
+      "block": "SMEFT",
+      "code": [
+        58
+      ],
+      "restriction_value": 0.0,
+      "source_line": 508,
+      "ufo_default": 0
+    },
+    "cquqd8Im": {
+      "block": "SMEFTCPV",
+      "code": [
+        21
+      ],
+      "restriction_value": 0.0,
+      "source_line": 692,
+      "ufo_default": 0
+    },
+    "cquqd8Re": {
+      "block": "SMEFT",
+      "code": [
+        57
+      ],
+      "restriction_value": 0.0,
+      "source_line": 500,
+      "ufo_default": 0
+    },
+    "cuBIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        11
+      ],
+      "restriction_value": 0.0,
+      "source_line": 612,
+      "ufo_default": 0
+    },
+    "cuBRe": {
+      "block": "SMEFT",
+      "code": [
+        17
+      ],
+      "restriction_value": 0.0,
+      "source_line": 180,
+      "ufo_default": 0
+    },
+    "cuGIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        9
+      ],
+      "restriction_value": 0.0,
+      "source_line": 596,
+      "ufo_default": 0
+    },
+    "cuGRe": {
+      "block": "SMEFT",
+      "code": [
+        15
+      ],
+      "restriction_value": 0.0,
+      "source_line": 164,
+      "ufo_default": 0
+    },
+    "cuHIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        17
+      ],
+      "restriction_value": 0.0,
+      "source_line": 660,
+      "ufo_default": 0
+    },
+    "cuHRe": {
+      "block": "SMEFT",
+      "code": [
+        11
+      ],
+      "restriction_value": 0.0,
+      "source_line": 132,
+      "ufo_default": 0
+    },
+    "cuWIm": {
+      "block": "SMEFTCPV",
+      "code": [
+        10
+      ],
+      "restriction_value": 0.0,
+      "source_line": 604,
+      "ufo_default": 0
+    },
+    "cuWRe": {
+      "block": "SMEFT",
+      "code": [
+        16
+      ],
+      "restriction_value": 0.0,
+      "source_line": 172,
+      "ufo_default": 0
+    },
+    "cud1": {
+      "block": "SMEFT",
+      "code": [
+        44
+      ],
+      "restriction_value": 0.0,
+      "source_line": 396,
+      "ufo_default": 0
+    },
+    "cud8": {
+      "block": "SMEFT",
+      "code": [
+        45
+      ],
+      "restriction_value": 0.0,
+      "source_line": 404,
+      "ufo_default": 0
+    },
+    "cuu": {
+      "block": "SMEFT",
+      "code": [
+        38
+      ],
+      "restriction_value": 0.0,
+      "source_line": 348,
+      "ufo_default": 0
+    },
+    "cuu1": {
+      "block": "SMEFT",
+      "code": [
+        39
+      ],
+      "restriction_value": 0.0,
+      "source_line": 356,
+      "ufo_default": 0
+    },
+    "linearPropCorrections": {
+      "block": "SWITCHES",
+      "code": [
+        1
+      ],
+      "restriction_value": 1.0,
+      "source_line": 764,
+      "ufo_default": 0
+    },
+    "ymb": {
+      "block": "YUKAWA",
+      "code": [
+        5
+      ],
+      "restriction_value": 4.18,
+      "source_line": 804,
+      "ufo_default": 4.18
+    },
+    "ymc": {
+      "block": "YUKAWA",
+      "code": [
+        4
+      ],
+      "restriction_value": 0.0,
+      "source_line": 796,
+      "ufo_default": 1.27
+    },
+    "ymdo": {
+      "block": "YUKAWA",
+      "code": [
+        1
+      ],
+      "restriction_value": 0.0,
+      "source_line": 772,
+      "ufo_default": 0.00467
+    },
+    "yme": {
+      "block": "YUKAWA",
+      "code": [
+        11
+      ],
+      "restriction_value": 0.0,
+      "source_line": 820,
+      "ufo_default": 0.000511
+    },
+    "ymm": {
+      "block": "YUKAWA",
+      "code": [
+        13
+      ],
+      "restriction_value": 0.0,
+      "source_line": 828,
+      "ufo_default": 0.10566
+    },
+    "yms": {
+      "block": "YUKAWA",
+      "code": [
+        3
+      ],
+      "restriction_value": 0.0,
+      "source_line": 788,
+      "ufo_default": 0.093
+    },
+    "ymt": {
+      "block": "YUKAWA",
+      "code": [
+        6
+      ],
+      "restriction_value": 172.76,
+      "source_line": 812,
+      "ufo_default": 172.76
+    },
+    "ymtau": {
+      "block": "YUKAWA",
+      "code": [
+        15
+      ],
+      "restriction_value": 1.777,
+      "source_line": 836,
+      "ufo_default": 1.777
+    },
+    "ymup": {
+      "block": "YUKAWA",
+      "code": [
+        2
+      ],
+      "restriction_value": 0.0,
+      "source_line": 780,
+      "ufo_default": 0.00216
+    }
+  },
+  "particle_names": [
+    "H",
+    "H1",
+    "W+",
+    "W-",
+    "W1+",
+    "W1-",
+    "Z",
+    "Z1",
+    "a",
+    "b",
+    "b~",
+    "c",
+    "c~",
+    "d",
+    "d~",
+    "e+",
+    "e-",
+    "g",
+    "mu+",
+    "mu-",
+    "s",
+    "s~",
+    "t",
+    "t1",
+    "t1~",
+    "ta+",
+    "ta-",
+    "t~",
+    "u",
+    "u~",
+    "ve",
+    "ve~",
+    "vm",
+    "vm~",
+    "vt",
+    "vt~"
+  ],
+  "provenance": {
+    "commit": "92ffde994d7c0d90554ee629cc477ee171c76b84",
+    "files": {
+      "coupling_orders.py": {
+        "sha256": "17955f86045917ee43996114a3a7e3e38d9a48af1070b42f6cfb13f3a25d7f6f",
+        "url": "https://raw.githubusercontent.com/IlariaBrivio/SMEFTsim_tutorial_June23/92ffde994d7c0d90554ee629cc477ee171c76b84/Material/SMEFTsim_U35_MwScheme_UFO/coupling_orders.py"
+      },
+      "parameters.py": {
+        "sha256": "3ad4cce0c6c588f2d3f2c10e242233c21965c1de1ad09eaf21de6528db6d02a4",
+        "url": "https://raw.githubusercontent.com/IlariaBrivio/SMEFTsim_tutorial_June23/92ffde994d7c0d90554ee629cc477ee171c76b84/Material/SMEFTsim_U35_MwScheme_UFO/parameters.py"
+      },
+      "particles.py": {
+        "sha256": "553789aaa48040661e4cf27159b12163a52909408699c3753b997d2fcc719396",
+        "url": "https://raw.githubusercontent.com/IlariaBrivio/SMEFTsim_tutorial_June23/92ffde994d7c0d90554ee629cc477ee171c76b84/Material/SMEFTsim_U35_MwScheme_UFO/particles.py"
+      },
+      "restrict_massless_Hvlvl.dat": {
+        "sha256": "f206d790e9eb1169cf720ce74889062de613d0468ff19c769721760dd7b29c89",
+        "url": "https://raw.githubusercontent.com/IlariaBrivio/SMEFTsim_tutorial_June23/92ffde994d7c0d90554ee629cc477ee171c76b84/Material/SMEFTsim_U35_MwScheme_UFO/restrict_massless_Hvlvl.dat"
+      },
+      "version.info": {
+        "sha256": "a7ef648e8ed76c4db6bc54e70a49c3669301c5498aee221d679242d0c040f202",
+        "url": "https://raw.githubusercontent.com/IlariaBrivio/SMEFTsim_tutorial_June23/92ffde994d7c0d90554ee629cc477ee171c76b84/Material/SMEFTsim_U35_MwScheme_UFO/version.info"
+      }
+    },
+    "repository": "https://github.com/IlariaBrivio/SMEFTsim_tutorial_June23"
+  },
+  "scope": "Static declarations and restriction values; no evaluated MadGraph model."
+}

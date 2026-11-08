@@ -1,0 +1,18 @@
+{
+  "lesson": "For signed event weights, record both sumw and sumw2.",
+  "applies_to": {
+    "format": "LHE",
+    "task": "weighted histogram statistics"
+  },
+  "evidence": [
+    {
+      "path": "{EXAMPLE_OUTPUT}/sample_report.json",
+      "role": "validation"
+    }
+  ],
+  "review": {
+    "by": "agent",
+    "verdict": "accept",
+    "reason": "Checked the two-event numerical example: sumw=1 and sumw2=2.5."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "request": {
+    "simulation": {
+      "process": "h > e- ve~ mu+ vm",
+      "generation": {
+        "nevents": 29,
+        "seed": 864209,
+        "cuts": [
+          {
+            "observable": "charged_lepton_pt",
+            "minimum": 4.0,
+            "maximum": 75.0,
+            "unit": "GeV"
+          }
+        ]
+      }
+    }
+  },
+  "artifacts": {
+    "param_card": "{PROJECT_ROOT}/tests/fixtures/sm_decay_cards/param_card.dat",
+    "run_card": "{PROJECT_ROOT}/tests/fixtures/sm_decay_cards/run_card.dat",
+    "process_card": "{EXAMPLE_OUTPUT}/proc_card.mg5"
+  },
+  "expected_intent_sha256": "b0fc9e2051e763df95fb4ea822b31a3ee49ea328a85f923084452ebd1207d693"
+}

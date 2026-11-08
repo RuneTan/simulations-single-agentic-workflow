@@ -1,0 +1,8 @@
+Generate 100 parton-level LO events for p p > e+ e- at sqrt(s)=13 TeV with
+SMEFTsim 3.0.2 Warsaw/U35/MwScheme, full model, all Wilson coefficients zero.
+Use NP=0, NPprop=0, SMHLOOP=0, QCD=0, QED=2, the built-in nn23lo1 PDF,
+seed 421023, and fixed renormalization and factorization scales of 91.1876 GeV.
+Require each charged lepton to have pT >= 20 GeV and |eta| <= 2.5, and
+66 <= m(e+e-) <= 116 GeV. Set other generation cuts to neutral values.
+Deliver the LHE sample, a 10-bin m(e+e-) histogram over [66,116] GeV,
+its per-bin stored-weight sums and sumw2, the plotting program, and a short summary.

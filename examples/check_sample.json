@@ -1,0 +1,8 @@
+{
+  "event_file": "{PROJECT_ROOT}/examples/data/two_events.lhe",
+  "expected_events": 2,
+  "required_weight_ids": [
+    "c1"
+  ],
+  "run_exit_code": 0
+}

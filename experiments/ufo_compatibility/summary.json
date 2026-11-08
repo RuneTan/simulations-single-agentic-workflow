@@ -1,0 +1,176 @@
+{
+  "manifest_files_before": 170,
+  "variants": [
+    {
+      "model": "SMEFTsim_U35_alphaScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 612.1747,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_U35_MwScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 624.361,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_MFV_MwScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 624.361,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_MFV_alphaScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 612.1747,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_general_MwScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 624.361,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_general_alphaScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 612.1747,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_topU3l_MwScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 624.361,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_topU3l_alphaScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 612.1747,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_top_MwScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 624.361,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    },
+    {
+      "model": "SMEFTsim_top_alphaScheme_UFO",
+      "status": "passed",
+      "events": 100,
+      "cross_section_pb": 612.1747,
+      "recorded_settings": {
+        "nevents": 100,
+        "iseed": 421023,
+        "lpp1": 1,
+        "lpp2": 1,
+        "ebeam1": 6500.0,
+        "ebeam2": 6500.0,
+        "pdlabel": "nn23lo1",
+        "ptl": 20.0,
+        "etal": 2.5
+      }
+    }
+  ],
+  "manifest_files_after": 170
+}

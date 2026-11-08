@@ -1,0 +1,17 @@
+# Submit from the repository root after installation and compiler checks.
+# condor_submit deploy/nikhef/job.sub project_root="$PWD" request_file="$PWD/examples/request.txt"
+universe = vanilla
+executable = $(project_root)/scripts/run_batch.sh
+arguments = "$(request_file)"
+initialdir = $(project_root)
+should_transfer_files = NO
+getenv = PATH, LD_LIBRARY_PATH
+request_cpus = 2
+request_memory = 4GB
+request_disk = 8GB
++UseOS = "el9"
++JobCategory = "short"
+log = $(project_root)/workspace/batch_logs/job.$(Cluster).log
+output = $(project_root)/workspace/batch_logs/job.$(Cluster).out
+error = $(project_root)/workspace/batch_logs/job.$(Cluster).err
+queue
