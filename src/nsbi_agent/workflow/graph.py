@@ -88,15 +88,20 @@ class TaskController:
                    'plan_resolve': (10, 1800), 'dispositions': (6, 1400),
                    'experience': (6, 1600)}
         max_steps, max_tokens = budgets.get(stage, (10, 1600))
-        multiplier = (self.task.get('runtime') or {}).get('agent_budget_multiplier', 1)
-        if multiplier is None:
+        runtime = self.task.get('runtime') or {}
+        # Give default stages more turns while preserving explicit replay settings.
+        step_multiplier = runtime.get('agent_budget_multiplier', 3)
+        token_multiplier = runtime.get('agent_budget_multiplier', 1)
+        if step_multiplier is None:
             max_steps = max_tokens = None
-            prompt = ('Runtime: no local model-turn, output-token or repair budgets for this task. '
-                      'The efficiency targets below are guidance. Complete the stage.\n\n' + prompt)
+            limit = 'This stage has no local model-turn cap.'
         else:
-            max_steps, max_tokens = max_steps * multiplier, max_tokens * multiplier
-        self.store.trace('stage_budget', stage=stage, multiplier=multiplier,
-                         max_steps=max_steps, max_tokens=max_tokens)
+            max_steps *= step_multiplier
+            max_tokens *= token_multiplier
+            limit = f'This stage allows up to {max_steps} model turns.'
+        prompt = f'{limit} Use the turns needed to complete the stage.\n\n{prompt}'
+        self.store.trace('stage_budget', stage=stage, multiplier=step_multiplier,
+                         token_multiplier=token_multiplier, max_steps=max_steps, max_tokens=max_tokens)
         options = {'max_steps': max_steps, 'max_tokens': max_tokens}
         if not self.gates_enabled:
             options['gates_enabled'] = False

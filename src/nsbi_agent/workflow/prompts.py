@@ -59,8 +59,7 @@ for a recheck, deferred pauses the task and asks the user to decide.
 
 ## Operating rules
 - Keep all your files inside your task workspace (writes outside it are rejected).
-- Every stage has a hard tool-step budget. Do the stage's listed steps directly;
-  do not browse unrelated project files "for context".
+- Follow the stage instructions directly and keep file reads relevant to the task.
 - If applicable experience is supplied in a stage prompt, use it and end that
   stage's summary with: "Applied experience <first 12 characters of its hash>: <what you did>".
 - Read log tails and grep specific fields; never paste whole logs into context.
@@ -72,7 +71,7 @@ for a recheck, deferred pauses the task and asks the user to decide.
   unrelated baseline.
 - End every stage with the finish_stage tool. The workflow validates artifacts
   and runs the corresponding checker itself.
-- Be concise: the model budget is small and every message costs tokens.
+- Keep messages focused on what the stage needs.
 """.replace('__PROJECT_ROOT__', str(PROJECT_ROOT))
 
 PLAN_SKELETON = """{
@@ -136,7 +135,7 @@ def _experience_block(experience: dict | None, stage: str) -> list:
 def stage_plan(request_text: str, workspace: str, experience: dict | None,
                check_feedback: dict | None, clarifications: list | None = None) -> str:
     lines = [
-        '## Stage: plan_resolve  (budget: finish within 8 tool calls; no MadGraph)',
+        '## Stage: plan_resolve (no MadGraph)',
         'Resolve the user request into one explicit structured request. Use the request '
         'values; do not copy settings from examples or from this prompt. Read '
         'docs/ParaList.md only if a field meaning is genuinely unclear.',
@@ -233,7 +232,7 @@ def stage_prepare_cards(request: dict, workspace: str, attempt: int,
         '   (no output redirection: the workflow job runner captures stdout/stderr in the job log).',
         '5. Before finishing, grep the three cards to confirm the values you set (quote the paths and lines).',
         '',
-        'Efficiency: keep this stage under ~10 tool calls. Do the card edits with ONE run_command that '
+        'Do the card edits with one run_command that '
         'runs a short python here-document. The baseline cards are verified against checker 3: if checker '
         '3 reports a parse/type error that points at a baseline line, report it in your summary instead '
         'of investigating MadGraph internals.',
@@ -252,7 +251,7 @@ def stage_dispositions(check_record: dict, context: dict | None = None,
                        experience: dict | None = None,
                        user_decisions: dict | None = None) -> str:
     lines = [
-        '## Stage: dispositions  (budget: finish within 4 tool calls)',
+        '## Stage: dispositions',
         'Checker %s returned needs_review. Record one review disposition per topic below.'
         % check_record.get('number'),
         _json(check_record.get('review_items', [])),
@@ -303,7 +302,7 @@ def stage_analysis(task_id: str, request: dict, configuration: dict | None,
         'pair_pdg_ids': analysis.get('pair_pdg_ids') or [11, -11],
     }
     lines = [
-        '## Stage: analyze_deliver  (budget: finish within 8 tool calls; do NOT explore cards or logs)',
+        '## Stage: analyze_deliver (do NOT explore cards or logs)',
         'Checker 4 already reported the sample statistics:', _json(sample_check),
         f'Init-reported cross sections (pb): {init_cross_section}',
         '',
@@ -346,7 +345,7 @@ def stage_analysis(task_id: str, request: dict, configuration: dict | None,
 
 def stage_experience(request: dict, workspace: str, evidence: list, scope: dict) -> str:
     return '\n'.join([
-        '## Stage: experience  (budget: finish within 4 tool calls)',
+        '## Stage: experience',
         'Draft one reusable lesson from this task\'s failure/repair evidence and self-review it.',
         'Evidence records (absolute paths; role observation cites the failed check, role validation '
         'cites a successful check):', _json(evidence),

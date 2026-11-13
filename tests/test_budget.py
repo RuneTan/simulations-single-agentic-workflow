@@ -8,23 +8,33 @@ from nsbi_agent.workflow import graph, runner
 from nsbi_agent.workflow.state import PROJECT_ROOT, TaskStore
 
 
-@pytest.mark.parametrize('multiplier', [1, 2])
+@pytest.mark.parametrize('runtime,step_multiplier,token_multiplier', [
+    ({}, 3, 1),
+    ({'agent_budget_multiplier': 1}, 1, 1),
+    ({'agent_budget_multiplier': 2}, 2, 2),
+])
 @pytest.mark.parametrize('stage,base', [
     ('plan_resolve', (10, 1800)), ('prepare_cards', (16, 2200)),
     ('dispositions', (6, 1400)), ('analyze_deliver', (14, 3000)), ('experience', (6, 1600)),
 ])
-def test_stage_budget_controls_and_trace(tmp_path, monkeypatch, multiplier, stage, base):
+def test_stage_budget_controls_and_trace(tmp_path, monkeypatch, runtime, step_multiplier,
+                                         token_multiplier, stage, base):
     captured = {}
-    def fake_run(*args, **kwargs):
+    def fake_run(store, client, stage, prompt, toolbox, **kwargs):
         captured.update(kwargs)
+        assert f'up to {base[0] * step_multiplier} model turns' in prompt
         return {'summary': 'done'}
     monkeypatch.setattr(graph, 'run_stage', fake_run)
-    store = TaskStore(tmp_path).create()
-    controller = graph.TaskController(store, None, {'runtime': {'agent_budget_multiplier': multiplier}})
+    path = tmp_path / 'task.json'
+    path.write_text(json.dumps({'task_id': 'budget-test', 'user_request': 'test',
+        'workspace': str(PROJECT_ROOT / 'workspace/budget-test'), 'runtime': runtime}))
+    store = TaskStore(tmp_path / 'store').create()
+    controller = graph.TaskController(store, None, runner.load_task_file(path))
     controller._run_agent_stage({}, stage, 'same prompt')
-    assert captured == {'max_steps': base[0] * multiplier, 'max_tokens': base[1] * multiplier}
+    assert captured == {'max_steps': base[0] * step_multiplier, 'max_tokens': base[1] * token_multiplier}
     record = json.loads(store.trajectory_path.read_text().splitlines()[0])
-    assert record['kind'] == 'stage_budget' and record['max_steps'] == captured['max_steps']
+    assert record['kind'] == 'stage_budget'
+    assert record['max_steps'] == captured['max_steps'] and record['max_tokens'] == captured['max_tokens']
 
 
 @pytest.mark.parametrize('value', [0, -1, 1.5, 'two'])

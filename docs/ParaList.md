@@ -165,12 +165,14 @@ Every task collects trajectory routinely with no input switch; pause/exit refres
 
 | Stage | Default model-call limit | Default output tokens per call |
 |---|---|---|
-| plan_resolve | 10 | 1800 |
-| prepare_cards | 16 | 2200 |
-| dispositions | 6 | 1400 |
-| analyze_deliver | 14 | 3000 |
-| experience | 6 | 1600 |
+| plan_resolve | 30 | 1800 |
+| prepare_cards | 48 | 2200 |
+| dispositions | 18 | 1400 |
+| analyze_deliver | 42 | 3000 |
+| experience | 18 | 1600 |
 
-runtime.agent_budget_multiplier defaults to 1; a positive integer scales both columns, while null removes the stage-call cap and omits max_tokens from output requests. runtime.max_repairs defaults to 2; null removes its count cap. When max_tokens is omitted, the provider applies its model-specific response and context limits. Total tokens have no separate cap and sum API-reported input/output across calls; cache hits remain part of input tokens. stage_budget in trajectory records effective limits; see REVIEW for measured usage.
+Omit `runtime.agent_budget_multiplier` to use the defaults above. An explicit positive integer scales the original stage-call limits (10, 16, 6, 14, 6 in table order) and the per-call output token limits. For example, `1` retains the original limits and `2` gives card preparation 32 calls with up to 4,400 output tokens per call. An explicit `null` removes the stage-call cap and omits `max_tokens`, so the provider applies its model-specific response and context limits.
+
+`runtime.max_repairs` defaults to 2. Set it to `null` for unlimited automatic repairs. Total tokens are the sum of API-reported input and output across calls, including cache hits in input. There is no separate total-token cap. The `stage_budget` trajectory record contains the effective limits. See [Review](REVIEW.md) for measured usage.
 
 See the [Gate ablation comparison](../experiments/gate_ablation/README.md) for paired inputs/outputs, usage and contribution checks; failed runs retain their artifacts.

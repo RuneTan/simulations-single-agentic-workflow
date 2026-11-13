@@ -24,7 +24,7 @@ EXIT_WAITING = 3
 EXIT_AWAITING_USER = 5
 
 DEFAULT_RUNTIME = {'max_repairs': 2, 'cores': 2, 'job_timeout_seconds': 3600,
-                   'agent_budget_multiplier': 1, 'gates_enabled': True}
+                   'gates_enabled': True}
 
 
 class TaskFileError(ValueError):

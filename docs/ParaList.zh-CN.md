@@ -165,12 +165,14 @@ analysis 独立保存样本／对象、观测量、单位、配对、分析选�
 
 | 阶段 | 默认模型调用轮数上限 | 默认单次输出 token 上限 |
 |---|---|---|
-| plan_resolve（规划） | 10 | 1800 |
-| prepare_cards（配卡） | 16 | 2200 |
-| dispositions（审阅处置） | 6 | 1400 |
-| analyze_deliver（分析交付） | 14 | 3000 |
-| experience（经验整理） | 6 | 1600 |
+| plan_resolve（规划） | 30 | 1800 |
+| prepare_cards（配卡） | 48 | 2200 |
+| dispositions（审阅处置） | 18 | 1400 |
+| analyze_deliver（分析交付） | 42 | 3000 |
+| experience（经验整理） | 18 | 1600 |
 
-runtime.agent_budget_multiplier 默认 1；正整数同时缩放上表两列，null 取消阶段调用上限并省略输出请求中的 max_tokens。runtime.max_repairs 默认 2，null 取消自动修复次数上限。未传 max_tokens 时，由服务商采用对应模型的输出与上下文限制。总 token 没有单独封顶，按每次 API 返回的输入／输出累加，缓存命中仍计入输入 token。预算记录写入 trajectory 的 stage_budget；测得用量见 REVIEW。
+省略 `runtime.agent_budget_multiplier` 即使用上表默认值。显式填写正整数会同时缩放原有的阶段调用上限（按表中顺序为 10、16、6、14、6）和单次输出 token 上限。例如，`1` 使用原有上限，`2` 允许配卡阶段调用 32 轮，单轮最多输出 4,400 token。显式填写 `null` 会取消阶段调用上限，并省略 `max_tokens`，由服务商应用对应模型的输出与上下文限制。
+
+`runtime.max_repairs` 默认为 2，设为 `null` 可取消自动修复次数上限。总 token 按每次 API 返回的输入和输出累加，缓存命中仍计入输入 token。总量没有单独上限。实际生效的限制记录在轨迹的 `stage_budget` 中。测得用量见[审阅说明](REVIEW.zh-CN.md)。
 
 消融试验输入／输出、消耗与贡献核对见[门控消融对比报告](../experiments/gate_ablation/README.zh-CN.md)；失败运行保留现场。
